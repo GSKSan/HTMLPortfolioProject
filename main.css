@@ -1,0 +1,60 @@
+.header{
+    align-items: center;
+    background-color: #efefef;
+background-image: url('../code-bg.jpg');
+background-position: cover;
+background-repeat: no-repeat;
+background-size: 100% auto;
+border-top: 4px solid #1e8ee9;;
+color: rgb(219, 202, 202);
+display: flex;
+flex-direction: column;
+height: 40vh;
+justify-content: center;
+min-height: 250px;
+padding: 0 20px;
+position: relative;
+text-align: center;
+filter: blur(8px);
+
+}
+
+#info{
+    
+    position: absolute;
+    color: rgb(219, 202, 202);
+    top: 10%;
+    left: 27%;
+    z-index: 2;
+    border: 3px solid #f1f1f1;
+    width: 48%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+body{
+    font-family: "Helvetica Neue", Arial, serif;
+    font-size: 22px;
+    font-weight: 200;       
+}
+
+.container{
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px 25px; 
+}
+
+.tagline{
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px 25px;
+}
+
+.skills{
+    border-top: 4px solid #e6d7dc;
+    background: #1e8ee9;
+    color: white;       
+}
